@@ -65,7 +65,7 @@ class DeleteNodesII {
         return newPrev;
 
     }
-    public static void populate(ListNode node, int val) {
+     static void populate(ListNode node, int val) {
        ListNode current = node;
         for (int i = 1; i < val; i++) { // start from 1 since the first node is already provided
             current.next = new ListNode(i);
